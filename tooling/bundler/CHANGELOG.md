@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-beta.2]
+
+- Properly bundle resources with nested folder structure.
+  - [a6157212](https://www.github.com/tauri-apps/tauri/commit/a61572127df839ed23e34e9b49b2bada5f18f7fb) fix(bundler): resources bundling on Windows with nested folder structure ([#2081](https://www.github.com/tauri-apps/tauri/pull/2081)) on 2021-06-25
+
 ## \[1.0.0-beta.1]
 
 - The process of copying binaries and resources to `project_out_directory` was moved to the Tauri CLI.
